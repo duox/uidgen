@@ -3,7 +3,7 @@ UIDgen - UUID generator, GUI and console versions.
 
 Author: [https://github.com/duox](https://github.com/duox) <br/>
 Project page: [https://github.com/duox/uidgen](https://github.com/duox/uidgen/) <br/>
-License: MIT
+License: MIT<br/>
 Supported platforms: Windows only
 
 UIDgen is a small utility that extends functionality of the standard WinWDK uidgen utility.
@@ -11,6 +11,7 @@ Besides of the standard functionality of the UUID generation, following features
 - both GUI and console versions selected automatically or manualy on startup;
 - extended number of UUID formatters;
 - user-supplied format string that allows any kind of UUID formats;
+- support for generator and formatter plugins (./sdk/ folder);
 - allows re-formatting of user supplied UUID (manual generator);
 - multiple UUIDs can be generated and copied to clipboard or saved to a file;
 - configurable behaviour (related to the UUID generation and main window behaviour);
