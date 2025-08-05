@@ -22,11 +22,11 @@ Contents
 -----------------
 
 [Screenshots](#Screenshots) <br/>
-[UID generators] (./docs/generators.md) <br/>
-[UID formatters] (./docs/formatters.md) <br/>
-[Plugin interface] (./docs/plugins.md) <br/>
-[Use in MSVS] (./docs/use-msvs.md) <br/>
-[Alternatives] (./docs/alternatives.md) <br/>
+[UID generators](./docs/generators.md) <br/>
+[UID formatters](./docs/formatters.md) <br/>
+[Plugin interface](./docs/plugins.md) <br/>
+[Use in MSVS](./docs/use-msvs.md) <br/>
+[Alternatives](./docs/alternatives.md) <br/>
 
 Screenshots
 -----------------
