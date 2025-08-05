@@ -1,8 +1,8 @@
 UIDgen - UUID generator, GUI and console versions.
 ========================================================
 
-Author: ![https://github.com/duox] (https://github.com/duox)
-Project page: ![https://github.com/duox/uidgen] (https://github.com/duox/uidgen/)
+Author: [https://github.com/duox] (https://github.com/duox)
+Project page: [https://github.com/duox/uidgen] (https://github.com/duox/uidgen/)
 License: MIT
 Supported platforms: Windows only
 
@@ -21,12 +21,12 @@ Besides of the standard functionality of the UUID generation, following features
 Contents
 -----------------
 
-[Screenshots](#Screenshots)
-[UID generators] (./docs/generators.md)
-[UID formatters] (./docs/formatters.md)
-[Plugin interface] (./docs/plugins.md)
-[Use in MSVS] (./docs/use-msvs.md)
-[Alternatives] (./docs/alternatives.md)
+[Screenshots](#Screenshots) 
+[UID generators] (./docs/generators.md) 
+[UID formatters] (./docs/formatters.md) 
+[Plugin interface] (./docs/plugins.md) 
+[Use in MSVS] (./docs/use-msvs.md) 
+[Alternatives] (./docs/alternatives.md) 
 
 Screenshots
 -----------------
