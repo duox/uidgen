@@ -21,12 +21,12 @@ Besides of the standard functionality of the UUID generation, following features
 Contents
 -----------------
 
-![Screenshots](#Screenshots)
-![UID generators] (./docs/generators.md)
-![UID formatters] (./docs/formatters.md)
-![Plugin interface] (./docs/plugins.md)
-![Use in MSVS] (./docs/use-msvs.md)
-![Alternatives] (./docs/alternatives.md)
+[Screenshots](#Screenshots)
+[UID generators] (./docs/generators.md)
+[UID formatters] (./docs/formatters.md)
+[Plugin interface] (./docs/plugins.md)
+[Use in MSVS] (./docs/use-msvs.md)
+[Alternatives] (./docs/alternatives.md)
 
 Screenshots
 -----------------
