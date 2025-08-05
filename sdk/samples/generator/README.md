@@ -1,0 +1,2 @@
+Sample generator plugin
+========================

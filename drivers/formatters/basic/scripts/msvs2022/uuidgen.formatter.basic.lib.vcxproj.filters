@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include/uidgen">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\formatters">
+      <UniqueIdentifier>{81c7823d-9517-4ed2-a393-6caf97dac8f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include/uidgen\formatters">
+      <UniqueIdentifier>{21df6f52-cd38-4ff9-aaab-c8b17847e8c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Iuser_formatter.cxx">
+      <Filter>src\formatters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\IDL_interface_template_formatter.cxx">
+      <Filter>src\formatters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\IMPLEMENT_OLECREATE_formatter.cxx">
+      <Filter>src\formatters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DEFINE_GUID_formatter.cxx">
+      <Filter>src\formatters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\static_const_GUID_formatter.cxx">
+      <Filter>src\formatters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Guid_attribute_1_formatter.cxx">
+      <Filter>src\formatters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Guid_attribute_2_formatter.cxx">
+      <Filter>src\formatters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Guid_attribute_3_formatter.cxx">
+      <Filter>src\formatters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raw_format_formatter.cxx">
+      <Filter>src\formatters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\registry_format_formatter.cxx">
+      <Filter>src\formatters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Csharp_field_definition_formatter.cxx">
+      <Filter>src\formatters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\VbNet_field_definition_formatter.cxx">
+      <Filter>src\formatters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\user_string_formatter.cxx">
+      <Filter>src\formatters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Csharp_Guid_object_formatter.cxx">
+      <Filter>src\formatters</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uidgen\basic_formatters.h">
+      <Filter>include/uidgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uidgen\DEFINE_GUID_formatter.hxx">
+      <Filter>include/uidgen\formatters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uidgen\IDL_interface_template_formatter.hxx">
+      <Filter>include/uidgen\formatters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uidgen\IMPLEMENT_OLECREATE_formatter.hxx">
+      <Filter>include/uidgen\formatters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uidgen\Iuser_formatter.hxx">
+      <Filter>include/uidgen\formatters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uidgen\static_const_GUID_formatter.hxx">
+      <Filter>include/uidgen\formatters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uidgen\Guid_attribute_1_formatter.hxx">
+      <Filter>include/uidgen\formatters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uidgen\Guid_attribute_2_formatter.hxx">
+      <Filter>include/uidgen\formatters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uidgen\Guid_attribute_3_formatter.hxx">
+      <Filter>include/uidgen\formatters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uidgen\raw_format_formatter.hxx">
+      <Filter>include/uidgen\formatters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uidgen\registry_format_formatter.hxx">
+      <Filter>include/uidgen\formatters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uidgen\Csharp_field_definition_formatter.hxx">
+      <Filter>include/uidgen\formatters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uidgen\VbNet_field_definition_formatter.hxx">
+      <Filter>include/uidgen\formatters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uidgen\user_string_formatter.hxx">
+      <Filter>include/uidgen\formatters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uidgen\Csharp_Guid_object_formatter.hxx">
+      <Filter>include/uidgen\formatters</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+</Project>

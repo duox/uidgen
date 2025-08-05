@@ -1,0 +1,64 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uidgen.lib", "uidgen.lib.vcproj", "{B2D90DD2-AF01-45CA-B913-A09BF8EE1E72}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uuidgen.formatter.basic.lib", "..\..\drivers\formatters\basic\scripts\msvs2003\uuidgen.formatter.basic.lib.vcproj", "{635BF05D-657E-42F6-A280-508BAE2AD854}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uuidgen.generator.basic.lib", "..\..\drivers\generators\basic\scripts\msvs2003\uuidgen.generator.basic.lib.vcproj", "{9E96B5DF-1F28-4329-9D88-AB3828A9E538}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uidgen.exe", "..\..\drivers\platforms\windows\scripts\mscs2003\uidgen.exe.vcproj", "{1E7BE561-84FE-4A35-8403-BBE800D90A63}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uidgen-rtl.lib", "..\..\rtl\scripts\msvs2003\uidgen-rtl.lib.vcproj", "{ACBD1E7C-8DB9-40A5-B26A-3271A8FD4853}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		debug = debug
+		final = final
+		release = release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B2D90DD2-AF01-45CA-B913-A09BF8EE1E72}.debug.ActiveCfg = debug|Win32
+		{B2D90DD2-AF01-45CA-B913-A09BF8EE1E72}.debug.Build.0 = debug|Win32
+		{B2D90DD2-AF01-45CA-B913-A09BF8EE1E72}.final.ActiveCfg = final|Win32
+		{B2D90DD2-AF01-45CA-B913-A09BF8EE1E72}.final.Build.0 = final|Win32
+		{B2D90DD2-AF01-45CA-B913-A09BF8EE1E72}.release.ActiveCfg = release|Win32
+		{B2D90DD2-AF01-45CA-B913-A09BF8EE1E72}.release.Build.0 = release|Win32
+		{635BF05D-657E-42F6-A280-508BAE2AD854}.debug.ActiveCfg = debug|Win32
+		{635BF05D-657E-42F6-A280-508BAE2AD854}.debug.Build.0 = debug|Win32
+		{635BF05D-657E-42F6-A280-508BAE2AD854}.final.ActiveCfg = final|Win32
+		{635BF05D-657E-42F6-A280-508BAE2AD854}.final.Build.0 = final|Win32
+		{635BF05D-657E-42F6-A280-508BAE2AD854}.release.ActiveCfg = release|Win32
+		{635BF05D-657E-42F6-A280-508BAE2AD854}.release.Build.0 = release|Win32
+		{9E96B5DF-1F28-4329-9D88-AB3828A9E538}.debug.ActiveCfg = debug|Win32
+		{9E96B5DF-1F28-4329-9D88-AB3828A9E538}.debug.Build.0 = debug|Win32
+		{9E96B5DF-1F28-4329-9D88-AB3828A9E538}.final.ActiveCfg = final|Win32
+		{9E96B5DF-1F28-4329-9D88-AB3828A9E538}.final.Build.0 = final|Win32
+		{9E96B5DF-1F28-4329-9D88-AB3828A9E538}.release.ActiveCfg = release|Win32
+		{9E96B5DF-1F28-4329-9D88-AB3828A9E538}.release.Build.0 = release|Win32
+		{1E7BE561-84FE-4A35-8403-BBE800D90A63}.debug.ActiveCfg = debug|Win32
+		{1E7BE561-84FE-4A35-8403-BBE800D90A63}.debug.Build.0 = debug|Win32
+		{1E7BE561-84FE-4A35-8403-BBE800D90A63}.final.ActiveCfg = final|Win32
+		{1E7BE561-84FE-4A35-8403-BBE800D90A63}.final.Build.0 = final|Win32
+		{1E7BE561-84FE-4A35-8403-BBE800D90A63}.release.ActiveCfg = release|Win32
+		{1E7BE561-84FE-4A35-8403-BBE800D90A63}.release.Build.0 = release|Win32
+		{ACBD1E7C-8DB9-40A5-B26A-3271A8FD4853}.debug.ActiveCfg = Debug|Win32
+		{ACBD1E7C-8DB9-40A5-B26A-3271A8FD4853}.debug.Build.0 = Debug|Win32
+		{ACBD1E7C-8DB9-40A5-B26A-3271A8FD4853}.final.ActiveCfg = final|Win32
+		{ACBD1E7C-8DB9-40A5-B26A-3271A8FD4853}.final.Build.0 = final|Win32
+		{ACBD1E7C-8DB9-40A5-B26A-3271A8FD4853}.release.ActiveCfg = Release|Win32
+		{ACBD1E7C-8DB9-40A5-B26A-3271A8FD4853}.release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

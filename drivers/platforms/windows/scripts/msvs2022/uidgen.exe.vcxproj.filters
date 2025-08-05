@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="rsrc">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src\uidgen">
+      <UniqueIdentifier>{e3862925-93b3-48d2-b9cc-f957636d5139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dialogs">
+      <UniqueIdentifier>{a5c77fdf-dc15-4dc5-bc55-7bf7f353ec95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\rtl">
+      <UniqueIdentifier>{19dc927a-fe3b-454f-853a-5decaca5b43e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\guimain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\conmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uidgen\uidgen_context.cxx">
+      <Filter>src\uidgen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\args.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\config.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gui.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dlg_help.cpp">
+      <Filter>src\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dlg_main.cpp">
+      <Filter>src\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dlg_sett.cpp">
+      <Filter>src\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dlg_about.cpp">
+      <Filter>src\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\plugins.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\console.cpp">
+      <Filter>src\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cmdline.cpp">
+      <Filter>src\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\heap.cpp">
+      <Filter>src\rtl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\resource.h">
+      <Filter>rsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uidgen\uidgen_context.hxx">
+      <Filter>src\uidgen</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+    <None Include="..\..\src\helptext.rtf">
+      <Filter>rsrc</Filter>
+    </None>
+    <None Include="..\..\src\resource.hm">
+      <Filter>rsrc</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\src\uidgen.exe.rc">
+      <Filter>rsrc</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="main_big.ico">
+      <Filter>rsrc</Filter>
+    </Image>
+    <Image Include="main_small.ico">
+      <Filter>rsrc</Filter>
+    </Image>
+    <Image Include="..\..\src\main_big.ico">
+      <Filter>rsrc</Filter>
+    </Image>
+    <Image Include="..\..\src\main_small.ico">
+      <Filter>rsrc</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
