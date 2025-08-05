@@ -1,8 +1,8 @@
 UIDgen - UUID generator, GUI and console versions.
 ========================================================
 
-Author: [https://github.com/duox] (https://github.com/duox) <br/>
-Project page: [https://github.com/duox/uidgen] (https://github.com/duox/uidgen/) <br/>
+Author: [https://github.com/duox](https://github.com/duox) <br/>
+Project page: [https://github.com/duox/uidgen](https://github.com/duox/uidgen/) <br/>
 License: MIT
 Supported platforms: Windows only
 
